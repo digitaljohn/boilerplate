@@ -34,7 +34,7 @@ exports.uploadData = function(data, destination, bucket, callback){
 		if(err){
 			callback(err, res);
 		}else{
-			callback(null, "http://s3.amazonaws.com/digitaljohn-boilerplate/"+destination);
+			callback(null, "http://s3.amazonaws.com/"+bucket+"/"+destination);
 		}
 	});
 }
