@@ -8,6 +8,11 @@
 
 Big thanks to [Brett Jones](https://github.com/brettjonesdev), the creator of [Marionette-Require-Boilerplate](https://github.com/BoilerplateMVC/Marionette-Require-Boilerplate/). Much of this Boilerplate is based on his amazing work.
 
+# Todo
+
+- Authentication, to secure the News Admin
+- Fix Issues with BackboneEditor
+- Documentation on the MondoDB and Amazon S3 Storage
 
 # Getting Started
 
@@ -234,11 +239,6 @@ We can then reference these English phrases in our templates like this example f
                 <strong>{{$ desktop}}</strong>
         {{/if}}.
 ```
-
-
-## SASS
-
-TBW
 
 
 ## Gruntfile.js
