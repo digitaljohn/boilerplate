@@ -1,5 +1,14 @@
 # DigitalJohn Boilerplate
 
+# Description
+> A Marionette.js and Require.js Boilerplate that promotes decoupling your JavaScript into modules, separating business logic from application logic using Collections/Models, Regions and Views, reusing your JavaScript between Desktop and Mobile Web versions, including non-AMD Compatible Third Party Scripts in your project, optimizing your JavaScript and CSS files (minify, concatenate, etc), and unit testing your JavaScript.  Part of the [BoilerplateMVC](https://github.com/BoilerplateMVC) suite.
+
+
+# Thanks
+
+Big thanks to [Brett Jones](https://github.com/brettjonesdev), the creator of [Marionette-Require-Boilerplate](https://github.com/BoilerplateMVC/Marionette-Require-Boilerplate/). Much of this Boilerplate is based on his amazing work.
+
+
 # Getting Started
 
 1. Download and install [Node.js](http://nodejs.org/#download)
