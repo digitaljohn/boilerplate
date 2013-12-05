@@ -1,0 +1,40 @@
+@mixin font-style-1 {
+	font-family: "rooney-web",sans-serif;
+	font-weight: 400;
+}
+
+@mixin font-style-2 {
+	font-family: "rooney-web",sans-serif;
+	font-weight: 700;
+}
+
+body{
+	@include font-style-1;
+}
+
+h1, h2, h3, h4{
+	@include font-style-2;
+	margin-bottom: 1em;
+}
+
+h2{
+	font-size: 24px;
+}
+
+p{
+	font-size: 14px;
+	margin-bottom: 1em;
+	line-height: 1.3em;
+}
+
+
+
+@include breakpoint(mobile){
+	h2{
+		font-size: 18px;
+	}
+
+	p{
+		font-size: 12px;
+	}
+}

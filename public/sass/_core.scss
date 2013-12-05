@@ -1,0 +1,55 @@
+@mixin disable-touch-flash {
+	-webkit-tap-highlight-color: transparent;
+}
+
+$default-box-shadow-color: black;
+
+$bg-color: #ececec;
+$main-color: white;
+
+html{
+	overflow-x: hidden;
+
+	height: 100%;	
+
+	*{
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-webkit-touch-callout:none;
+	} 
+}
+
+body{
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+
+    overflow-x: hidden;
+
+    background-color: $bg-color;
+
+    height: 100%;
+    min-height: 100%;
+}
+
+
+
+#main{
+	@include box-sizing(border-box);
+
+	margin-top: 44px;
+	margin-bottom: 44px;
+	min-height: 100%;
+
+	padding: 20px;
+
+	background-color: $main-color;
+
+	@include breakpoint(desktop){
+		width: 880px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
