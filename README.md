@@ -22,9 +22,11 @@ Big thanks to [Brett Jones](https://github.com/brettjonesdev), the creator of [M
 4.  If you have installed [Grunt](http://gruntjs.com/) globally in the past, you will need to remove it first by typing `npm uninstall -g grunt`.  If it complains about user permissions, type `sudo npm uninstall -g grunt`.
 5.  Next, install the latest version of [Grunt](http://gruntjs.com/) by typing `npm install -g grunt-cli`.  If it complains about user permissions, type `sudo npm install -g grunt-cli`. 
 6. Navigate to inside of the **boilerplate** folder and type `npm install`
-7. Next, type `nodemon` (this will start your Node.js web server and restart the server any time you make a change to a file)
-8. To view the site, go to `http://localhost:8001`
-9. Type `grunt` to run your grunt build and create minified .js and .css files
+7. Duplicate the file `server/settings.sample.js` and rename it `server/settings.js`.
+8. Fill in the various configuration settings for this file. E.g. MongoDB Connection String, Amazon S3 Bucket Authentication and Mail Settings.
+9. Next, type `nodemon` (this will start your Node.js web server and restart the server any time you make a change to a file)
+10. To view the site, go to `http://localhost:8001`
+11. Type `grunt` to run your grunt build and create minified .js and .css files
 
 # Tour of the Boilerplate Files
 
