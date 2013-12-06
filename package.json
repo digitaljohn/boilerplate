@@ -21,7 +21,8 @@
         "mongodb": "*",
         "aws-sdk": "*",
         "crypto": "*",
-        "nodemailer": "*"
+        "nodemailer": "*",
+        "async": "0.2.x"
     },
     "devDependencies":{
         "express": "3.x",
