@@ -1,7 +1,7 @@
 # DigitalJohn Boilerplate
 
 # Description
-> A Marionette.js and Require.js Boilerplate that promotes decoupling your JavaScript into modules, separating business logic from application logic using Collections/Models, Regions and Views, reusing your JavaScript between Desktop and Mobile Web versions, including non-AMD Compatible Third Party Scripts in your project, optimizing your JavaScript and CSS files (minify, concatenate, etc), and unit testing your JavaScript.  Part of the [BoilerplateMVC](https://github.com/BoilerplateMVC) suite.
+> A Marionette.js and Require.js Boilerplate that promotes decoupling your JavaScript into modules, separating business logic from application logic using Collections/Models, Regions and Views, reusing your JavaScript between Desktop and Mobile Web versions, including non-AMD Compatible Third Party Scripts in your project, optimizing your JavaScript and CSS files (minify, concatenate, etc).
 
 
 # Thanks
